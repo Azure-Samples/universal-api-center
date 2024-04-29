@@ -1,0 +1,53 @@
+{
+	"name": "Universal API Center Dev Container",
+	"image": "mcr.microsoft.com/vscode/devcontainers/dotnet:8.0-jammy",
+	"hostRequirements": {
+	  "cpus": 4
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+			"installBicep": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/python:1": {
+			"installTools": true,
+			"version": "os-provided"
+		},
+		"ghcr.io/stuartleeks/dev-container-features/azure-cli-persistence:0": {},
+		"ghcr.io/azure/azure-dev/azd:0": {
+			"version": "stable"
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+			"version": "latest"
+		}		
+	},
+	"waitFor": "onCreateCommand",
+	"updateContentCommand": "",
+	"postCreateCommand": "",
+	"customizations": {
+	  "codespaces": {
+		"openFiles": []
+	  },
+	  "vscode": {
+		"extensions": [
+		  "ms-vscode.azure-account",
+		  "ms-azuretools.azure-dev",
+		  "ms-azuretools.vscode-apimanagement",
+		  "apidev.azure-api-center",
+		  "ms-azuretools.vscode-azurefunctions",
+		  "ms-kubernetes-tools.vscode-aks-tools",
+		  "ms-azuretools.vscode-azurecontainerapps",
+		  "ms-azuretools.vscode-azureappservice",
+		  "ms-azuretools.vscode-azurelogicapps",
+		  "ms-azuretools.vscode-azurestaticwebapps",
+		  "ms-toolsai.jupyter",
+		  "ms-python.python",
+		  "ms-dotnettools.dotnet-interactive-vscode",
+		  "github.copilot",
+		  "github.copilot-chat",
+		  "humao.rest-client",
+		  "evilz.vscode-reveal"
+		]
+	  }
+	}
+}
