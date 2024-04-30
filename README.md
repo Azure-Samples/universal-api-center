@@ -1,38 +1,57 @@
 # API Center ❤️ all APIs
 
-TODO: explain why we need API Center
+In the current era of digital transformation, organizations are increasingly adopting cloud-based technologies and incorporating microservice patterns, which has been a catalyst in significantly escalating the use of Application Programming Interfaces (APIs). The application of these APIs stretches across a diverse array of platforms, various environments, and different architectural designs, which suggests a gradual evolution in technological infrastructure that is crucial in sustaining a prosperous business landscape. 
+
+However, organisations struggling to adapt to this API proliferation, face three major challenges:
+- The first is the complex task of identifying APIs due to a proliferation of platforms, API Gateways and other tools implemented by disparate teams and environments, forming a complicated maze and creating significant obstacles for modern organisations. 
+- Secondly, each API, which enables varied functionalities across multiple environments and platforms, carries its own unique set of quality standards. This evolving and diverse API landscape spawns a complex management area for IT departments, particularly while managing multiple versions and embodiments of APIs, resembling a daunting trap requiring extensive effort to manage an overwhelming number of API variations. 
+- Thirdly, the recent spike in security attacks directed at APIs, pose a significant concern for today's enterprises. The arrival of concealed or 'shadow' APIs introduces potential security risks, obliging companies to conduct exhaustive forensic evaluations to determine potential damage and strategize appropriate mitigation tactics. Thus, mitigating these security risks demands proper API Governance and ongoing threat monitoring capabilities to safeguard an organisation's digital ecosystem.
+
 
 ## Universal API Center
 ![Universal API Center](images/api-center.png)
 
-TODO: This repo explores the ....
+🚀 We are pleased to introduce the API Center, a new Azure service designed to address the various complexities associated with API proliferation. This ground-breaking solution will empower businesses with a reliable, seamless approach to overcoming these challenges, paving the way for enhanced operational efficiencies and productivity.
+
+The API Center provides a centralized platform for discovering, reusing, and governing all of your APIs. It establishes a structured and systematic inventory of your organization's APIs, irrespective of their type, lifecycle stage, or deployment location. Further, it accommodatively provides related information such as version specifics, API definition files, and shared metadata. Utilizing the API Center, various stakeholders within your organization including API program managers, IT administrators, application developers, and API developers can smoothly discover, reuse, and govern APIs.
+
+### Benefits
+- Having a robust inventory of APIs within an organization's framework is crucial as it fosters effective communication and collaboration between API program managers and developers. This not only amplifies the quality and reusability of APIs but also amplifies their security and compliance. Ultimately, this strategic approach leads to an advantageous uptick in developer productivity.
+- Enhancing your organization's API governance offers a crucial advantage. It allows API program managers and IT administrators to maintain comprehensive oversight of the API creation and utilization within their organization. This enhanced visibility promotes adherence to organizational standards by facilitating the definition of custom metadata and the analysis of API definitions. This in turn enables the enforcement of conformance to API style guidelines, thereby improving the overall API management.
+- API Center enhances API discovery, enabling organizations to promote API reuse and optimize developer productivity by assisting both program managers and developers in identifying API inventory and filtering with both built-in and bespoke metadata properties. Moreover, the API Center expedites API consumption to further boost developer efficiency, safeguarding secure and organizationally compliant usage of APIs.
+
+To expedite the realization of the above benefits, we have constructed a variety of labs demonstrating the seamless cataloguing of APIs from diverse gateways and sources. This step is integral in our goal to establish a truly  **Universal API center**.
+
 
 ## 🧪 Labs
 
-TODO: explain that powershell works on Windows and Linux and Juputer notebooks provide the playground to experiment the labs.
+The labs, structured as Jupyter notebooks, offer thorough guidance on utilizing PowerShell scripts in conjunction with Azure CLI commands. These comprehensive instructions cover diverse functionalities, including deploying, importing, and exploring APIs.
+
+> [!TIP]
+> You can apply the supplied Powershell scripts across various platforms, including Windows, Linux, and Mac, to construct automation workflows, continuous integration, and continuous delivery pipelines, among other procedures. This facilitates the enhancement of productivity and efficiency within your operations.
 
 |  |  | | |
 | ---- | ----- | ----------- | -- |
-| [Import from generic OpenAPI](labs/import-from-generic-openapi/import-from-generic-openapi.ipynb) | [![image](images/import-from-generic-openapi.png)](labs/import-from-generic-openapi/import-from-generic-openapi.ipynb) | Playground to experiment importing APIs in the OpenAPI specification using different methods provided by API Center. We start by creating an API Center instance using Bicep and then we will use the Azure CLI to import the APIs. | [💬](../../issues/11 "Discussion") |
-| [Import from Azure API Management](labs/import-from-azure-apim/import-from-azure-apim.ipynb)     | [![image](images/import-from-azure-apim.png)](labs/import-from-azure-apim/import-from-azure-apim.ipynb) | Work in progress | [💬](../../issues/15 "Discussion") |
-| [Import from Amazon API Gateway](labs/import-from-aws/import-from-aws.ipynb)     | [![image](images/import-from-aws.png)](labs/import-from-aws/import-from-aws.ipynb) | Work in progress | [💬](../../issues/15 "Discussion") |
-| [Import from Apigee](labs/import-from-gcp/import-from-gcp.ipynb)     | [![image](images/import-from-gcp.png)](labs/import-from-gcp/import-from-gcp.ipynb) | Work in progress | [💬](../../issues/15 "Discussion") |
-| [Import from Kong](labs/import-from-kong/import-from-kong.ipynb)     | [![image](images/import-from-kong.png)](labs/import-from-kong/import-from-kong.ipynb) | Work in progress | [💬](../../issues/15 "Discussion") |
-| [Import from Mulesoft](labs/import-from-mulesoft/import-from-mulesoft.ipynb)     | [![image](images/import-from-mulesoft.png)](labs/import-from-mulesoft/import-from-mulesoft.ipynb) | Work in progress | [💬](../../issues/15 "Discussion") |
-| [Import from Kubernetes](labs/import-from-k8s/import-from-k8s.ipynb)     | [![image](images/import-from-k8s.png)](labs/import-from-k8s/import-from-k8s.ipynb) | Work in progress | [💬](../../issues/15 "Discussion") |
-| [Import from GitHub](labs/import-from-github/import-from-github.ipynb)     | [![image](images/import-from-github.png)](labs/import-from-github/import-from-github.ipynb) | Work in progress | [💬](../../issues/15 "Discussion") |
+| [Import from generic OpenAPI](labs/import-from-generic-openapi/import-from-generic-openapi.ipynb) | [![image](images/import-from-generic-openapi.png)](labs/import-from-generic-openapi/import-from-generic-openapi.ipynb) | Playground to experiment importing APIs in the OpenAPI specification into API Center. We start by creating an API Center instance using [Bicep resource definition](https://learn.microsoft.com/en-us/azure/templates/microsoft.apicenter/services?pivots=deployment-language-bicep) and then we will use the [Azure CLI]((https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest)) to import the APIs. | [💬](../../issues/2 "Discussion") |
+| [Import from Azure API Management](labs/import-from-azure-apim/import-from-azure-apim.ipynb)     | [![image](images/import-from-azure-apim.png)](labs/import-from-azure-apim/import-from-azure-apim.ipynb) | Playground to experiment importing APIs from Azure APIM into API Center. We start by creating APIM and API Center instances using [Bicep resource definition](https://learn.microsoft.com/en-us/azure/templates/microsoft.apicenter/services?pivots=deployment-language-bicep) and then we will use the [Azure CLI]((https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest)) to import the APIs from APIM. | [💬](../../issues/3 "Discussion") |
+| [Import from Amazon API Gateway](labs/import-from-aws/import-from-aws.ipynb)     | [![image](images/import-from-aws.png)](labs/import-from-aws/import-from-aws.ipynb) | Work in progress | [💬](../../issues/4 "Discussion") |
+| [Import from Apigee](labs/import-from-gcp/import-from-gcp.ipynb)     | [![image](images/import-from-gcp.png)](labs/import-from-gcp/import-from-gcp.ipynb) | Work in progress | [💬](../../issues/5 "Discussion") |
+| [Import from Kong](labs/import-from-kong/import-from-kong.ipynb)     | [![image](images/import-from-kong.png)](labs/import-from-kong/import-from-kong.ipynb) | Work in progress | [💬](../../issues/6 "Discussion") |
+| [Import from Mulesoft](labs/import-from-mulesoft/import-from-mulesoft.ipynb)     | [![image](images/import-from-mulesoft.png)](labs/import-from-mulesoft/import-from-mulesoft.ipynb) | Work in progress | [💬](../../issues/7 "Discussion") |
+| [Import from Kubernetes](labs/import-from-k8s/import-from-k8s.ipynb)     | [![image](images/import-from-k8s.png)](labs/import-from-k8s/import-from-k8s.ipynb) | Work in progress | [💬](../../issues/8 "Discussion") |
+| [Import from Git](labs/import-from-git/import-from-git.ipynb)     | [![image](images/import-from-git.png)](labs/import-from-git/import-from-git.ipynb) | Work in progress | [💬](../../issues/9 "Discussion") |
 
 > [!TIP]
-> Kindly use [the feedback discussion](../../discussions/9) so that we can continuously improve with your experiences, suggestions, ideas or lab requests.
+> Kindly use [the feedback discussion](../../discussions/1) so that we can continuously improve with your experiences, suggestions, ideas or lab requests.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Install the latest [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
-- Install the latest [Visual Studio Code](https://code.visualstudio.com/)
+- Install or update to the latest [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
+- Install or update to the latest [Visual Studio Code](https://code.visualstudio.com/)
 - Install the [Polyglot Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) from the VS Code marketplace
-- Install the latest [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell) installed
-- Install the latest [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+- Install or update to the latest [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
+- Install or update to the latest [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli). The Azure API Center extension will automatically install the first time you run an [az apic](https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest) command.
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively)
 
@@ -60,3 +79,10 @@ TODO: explain that powershell works on Windows and Linux and Juputer notebooks p
 ## Disclaimer
 > [!IMPORTANT]
 > This software is provided for demonstration purposes only. It is not intended to be relied upon for any purpose. The creators of this software make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the software or the information, products, services, or related graphics contained in the software for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+Trademarks This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow Microsoft’s Trademark & Brand Guidelines. Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party’s policies.
+
