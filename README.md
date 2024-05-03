@@ -3,10 +3,10 @@
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
 
 ## Contents 
-1. [🌐 Universal API Center](#🌐-universal-api-center)
-2. [🧪 Labs](#🧪-labs)
-3. [🚀 Getting started](#🚀-getting-started)
-7. [🥇 Other Resources](#🥇-other-resources)
+1. [🌐 Universal API Center](#-universal-api-center)
+2. [🧪 Labs](#-labs)
+3. [🚀 Getting started](#-getting-started)
+7. [🥇 Other Resources](#-other-resources)
 
 In the current era of digital transformation, organizations are increasingly adopting cloud-based technologies and incorporating microservice patterns, which has been a catalyst in significantly escalating the use of Application Programming Interfaces (APIs). The application of these APIs stretches across a diverse array of platforms, various environments, and different architectural designs, which suggests a gradual evolution in technological infrastructure that is crucial in sustaining a prosperous business landscape. 
 
