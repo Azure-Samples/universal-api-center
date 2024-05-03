@@ -1,0 +1,24 @@
+{
+    "deploymentId": "g97923",
+    "stageName": "production",
+    "description": "Production Stage",
+    "cacheClusterEnabled": false,
+    "cacheClusterSize": "0.5",
+    "cacheClusterStatus": "NOT_AVAILABLE",
+    "methodSettings": {
+        "*/*": {
+            "metricsEnabled": false,
+            "dataTraceEnabled": false,
+            "throttlingBurstLimit": -1,
+            "throttlingRateLimit": -1.0,
+            "cachingEnabled": false,
+            "cacheTtlInSeconds": 300,
+            "cacheDataEncrypted": false,
+            "requireAuthorizationForCacheControl": true,
+            "unauthorizedCacheControlHeaderStrategy": "SUCCEED_WITH_RESPONSE_HEADER"
+        }
+    },
+    "tracingEnabled": false,
+    "createdDate": "2024-05-02T21:56:07+01:00",
+    "lastUpdatedDate": "2024-05-02T23:02:23+01:00"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "2q3nwrw1r0",
+    "name": "PetStore",
+    "description": "Your first API with Amazon API Gateway. This is a sample API that integrates via HTTP with our demo Pet Store endpoints",
+    "createdDate": "2024-05-02T21:54:38+01:00",
+    "apiKeySource": "HEADER",
+    "endpointConfiguration": {
+        "types": [
+            "REGIONAL"
+        ]
+    },
+    "tags": {
+        "dataClassification": "Confidential",
+        "department": "HR"
+    },
+    "disableExecuteApiEndpoint": false,
+    "rootResourceId": "o66v41060e"
+}

@@ -1,0 +1,20 @@
+[
+    {
+      "id": "environment-id1",
+      "name": "Design",
+      "organizationId": "organizationid-guid",
+      "isProduction": false,
+      "type": "design",
+      "clientId": "clientid-guid",
+      "arcNamespace": null
+    },
+    {
+      "id": "environment-id2",
+      "name": "Sandbox",
+      "organizationId": "organizationid-guid",
+      "isProduction": false,
+      "type": "sandbox",
+      "clientId": "clientid2-guid",
+      "arcNamespace": null
+    }
+  ]

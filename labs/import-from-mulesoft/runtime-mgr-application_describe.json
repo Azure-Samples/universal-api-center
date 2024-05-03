@@ -1,0 +1,94 @@
+{
+  "id": "26f72364-8300-4c74-b706-5a7d172a6aa6",
+  "name": "proxyapp",
+  "creationDate": 1714729803866,
+  "lastModifiedDate": 1714733433281,
+  "target": {
+    "provider": "MC",
+    "targetId": "cloudhub-us-east-2",
+    "deploymentSettings": {
+      "http": {
+        "inbound": {
+          "publicUrl": "https://proxyapp-ojrtol.5sc6y6-3.usa-e2.cloudhub.io",
+          "lastMileSecurity": false,
+          "forwardSslSession": false
+        }
+      },
+      "runtimeVersion": "4.6.2:5e-java8",
+      "runtimeReleaseChannel": "EDGE",
+      "disableAmLogForwarding": false,
+      "anypointMonitoringScope": "app",
+      "sidecars": {
+        "anypoint-monitoring": {
+          "image": "auto",
+          "resources": {
+            "cpu": {
+              "limit": "50m",
+              "reserved": "0m"
+            },
+            "memory": {
+              "limit": "50Mi",
+              "reserved": "50Mi"
+            }
+          }
+        }
+      },
+      "runtime": {
+        "version": "4.6.2:5e-java8",
+        "releaseChannel": "EDGE",
+        "java": "8"
+      }
+    },
+    "replicas": 1
+  },
+  "status": "APPLIED",
+  "application": {
+    "status": "RUNNING",
+    "desiredState": "STARTED",
+    "ref": {
+      "groupId": "5c887b3a-13a5-4808-97ae-2fae71667035",
+      "artifactId": "petstore-api-gateway-sample-rest-proxy",
+      "version": "1.0.0-3.2.0",
+      "packaging": "jar"
+    },
+    "configuration": {
+      "mule.agent.application.properties.service": {
+        "applicationName": "proxyapp",
+        "properties": {
+          "anypoint.platform.analytics_base_uri": "https://analytics-ingest.anypoint.mulesoft.com",
+          "proxy.port": "8081",
+          "api.version": "v1:19461143",
+          "proxy.path": "/*",
+          "implementation.port": "443",
+          "implementation.api.parser": "AUTO",
+          "api.name": "groupId:5c887b3a-13a5-4808-97ae-2fae71667035:assetId:petstore",
+          "anypoint.platform.base_uri": "https://anypoint.mulesoft.com",
+          "api.id": "19461143",
+          "implementation.host": "petstore3.swagger.io",
+          "anypoint.platform.client_id": "d5e19b6219494ed984d592ae13471039",
+          "validation.strict.queryParams": "false",
+          "implementation.protocol": "HTTPS",
+          "validation.disable": "true",
+          "validation.strict.headers": "false",
+          "implementation.path": "/api/v3",
+          "proxy.responseTimeout": "10000"
+        },
+        "secureProperties": {
+          "anypoint.platform.client_secret": "******"
+        }
+      }
+    },
+    "vCores": 0.1
+  },
+  "desiredVersion": "6ea98620-58e8-408b-a23d-098fc4b03f4b",
+  "replicas": [
+    {
+      "id": "proxyapp-6ffccd7759-jdzz8",
+      "state": "STARTED",
+      "deploymentLocation": "cloudhub-us-east-2",
+      "currentDeploymentVersion": "6ea98620-58e8-408b-a23d-098fc4b03f4b",
+      "reason": ""
+    }
+  ],
+  "lastSuccessfulVersion": "6ea98620-58e8-408b-a23d-098fc4b03f4b"
+}

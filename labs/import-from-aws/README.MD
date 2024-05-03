@@ -3,7 +3,17 @@
 ## Import from Amazon API Gateway
 ![image](../../images/import-from-aws.png)
 
-Work in progress
+Playground to experiment importing APIs from Amazon API Gateway. We start by creating an API Center instance using [Bicep resource definition](https://learn.microsoft.com/en-us/azure/templates/microsoft.apicenter/services?pivots=deployment-language-bicep) and then we will use the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) to export the APIs and the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest) to import the APIs into API Center.
+
+💡 Every step outlined below leverages the power of PowerShell scripts. This is designed so you can seamlessly integrate them into your automation workflows, CI/CD pipelines, webhooks, and more.
+
+### Learning Objectives - Upon completing this lab, you should be able to:
+- Deploy Azure API Center using Bicep.
+- Configure the API Center metadata scheme for APIs, Environments and Deployments.
+- Understand the Azure CLI commands to manage Azure API Center. [Full list of commands available here](https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest).
+- Register APIs using the OpenAPI spec exported from AWS API Gateway.
+- Create deployments for each AWS API Gateway stage. 
+- Search and discover the APIs registered in API Center.
 
 ### Prerequisites
 - Install or update to the latest [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
@@ -13,6 +23,8 @@ Work in progress
 - Install or update to the latest [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli). The Azure API Center extension will automatically install the first time you run an [az apic](https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest) command.
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively)
+- Install or update to the latest [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [Setup](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html) the AWS CLI to interact with AWS services
 
 ### 🚀 Get started
 Proceed by opening the [Jupyter notebook](import-from-aws.ipynb), and follow the steps provided.

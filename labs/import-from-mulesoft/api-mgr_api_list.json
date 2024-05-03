@@ -1,0 +1,43 @@
+[
+  {
+    "audit": {
+      "created": {
+        "date": "2024-05-03T09:49:53.908Z"
+      },
+      "updated": {}
+    },
+    "masterOrganizationId": "5c887b3a-13a5-4808-97ae-2fae71667035",
+    "organizationId": "5c887b3a-13a5-4808-97ae-2fae71667035",
+    "id": 19461143,
+    "instanceLabel": null,
+    "groupId": "5c887b3a-13a5-4808-97ae-2fae71667035",
+    "assetId": "petstore",
+    "assetVersion": "1.0.0",
+    "productVersion": "v1",
+    "description": null,
+    "tags": [],
+    "order": 1,
+    "providerId": null,
+    "deprecated": false,
+    "lastActiveDate": "2024-05-03T12:37:12.354Z",
+    "endpointUri": null,
+    "environmentId": "e66fe03d-f76e-41eb-8b6e-cc5456e11466",
+    "isPublic": false,
+    "stage": "release",
+    "technology": "mule4",
+    "status": "active",
+    "deployment": {
+      "audit": {
+        "created": {},
+        "updated": {}
+      },
+      "applicationId": "26f72364-8300-4c74-b706-5a7d172a6aa6",
+      "targetId": "cloudhub-us-east-2",
+      "expectedStatus": "deployed"
+    },
+    "lastActiveDelta": 48,
+    "pinned": false,
+    "activeContractsCount": 0,
+    "autodiscoveryInstanceName": "v1:19461143"
+  }
+]
