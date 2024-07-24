@@ -53,6 +53,9 @@ The labs, structured as Jupyter notebooks, offer thorough guidance on utilizing 
 
 ## 🚀 Getting Started
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/universal-api-center/tree/main)
+
+
 ### Prerequisites
 - Install or update to the latest [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
 - Install or update to the latest [Visual Studio Code](https://code.visualstudio.com/)
