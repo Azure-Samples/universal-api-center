@@ -1,6 +1,7 @@
 # API Center ❤️ all APIs
 
 ## Import the Banking Industry Architecture Network (BIAN) APIs
+![image](../../images/import-bian.png)
 
 Playground to experiment importing BIAN APIs from the GitHub repo.
 

@@ -46,7 +46,13 @@ The labs, structured as Jupyter notebooks, offer thorough guidance on utilizing 
 | [Import from Apigee](labs/import-from-gcp/import-from-gcp.ipynb)     | [![image](images/import-from-gcp.png)](labs/import-from-gcp/import-from-gcp.ipynb) | Playground to experiment importing APIs from Apigee. We will use the [GCP CLI](https://cloud.google.com/sdk/docs/install-sdk) to export the Apigee APIs and the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest) to import the APIs into API Center. | [💬](../../issues/5 "Discussion") |
 | [Import from Kong](labs/import-from-kong/import-from-kong.ipynb)     | [![image](images/import-from-kong.png)](labs/import-from-kong/import-from-kong.ipynb) | Playground to experiment importing APIs from Kong API Gateway. We will use the [Kong Admin API](https://docs.konghq.com/gateway/api/admin-oss/latest) to export Kong services and import them into API Center. | [💬](../../issues/6 "Discussion") |
 | [Import from Mulesoft](labs/import-from-mulesoft/import-from-mulesoft.ipynb)     | [![image](images/import-from-mulesoft.png)](labs/import-from-mulesoft/import-from-mulesoft.ipynb) | Playground to experiment importing APIs from the MuleSoft Anypoint platform. We will use the [Anypoint Platform CLI](https://docs.mulesoft.com/anypoint-cli/latest/) to export the APIs and the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/apic?view=azure-cli-latest) to import the APIs into API Center. | [💬](../../issues/7 "Discussion") |
+| [Import from IBM](labs/import-from-ibm/import-from-ibm.ipynb)     | [![image](images/import-from-ibm.png)](labs/import-from-ibm/import-from-ibm.ipynb) | Playground to experiment bulk importing APIs from IBM API Connect into API Center |  |
 | [Import from Git](labs/import-from-git/import-from-git.ipynb)     | [![image](images/import-from-git.png)](labs/import-from-git/import-from-git.ipynb) | Playground to experiment importing APIs in the OpenAPI specification into API Center by crawling Git repositories. | [💬](../../issues/9 "Discussion") |
+| [Import BIAN](labs/import-bian/import-bian.ipynb)     | [![image](images/import-bian.png)](labs/import-bian/import-bian.ipynb) | Playground to experiment importing Banking Industry Architecture Network (BIAN) APIs from [their GitHub repo](https://github.com/bian-official/public). |  |
+
+
+
+
 
 > [!TIP]
 > Kindly use [the feedback discussion](../../discussions/1) so that we can continuously improve with your experiences, suggestions, ideas or lab requests.
